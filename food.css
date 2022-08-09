@@ -363,3 +363,13 @@ header section .search .location_h .loc{
     align-items: center;
     justify-content: flex-end;
    }
+   .app_data .left_bx img{
+    width: 270px;
+    height: 250px;
+   }
+   .app_data .right_bx{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+   }
