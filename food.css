@@ -296,7 +296,7 @@ header section .search .location_h .loc{
     width: 83%;
     margin: auto;
     height: auto;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
    }
    .container3 h1{
    font-weight: 500;
@@ -311,11 +311,33 @@ header section .search .location_h .loc{
    .container3 .cityes{
    width: 100%;
    height: auto;
-   border: 1px solid #000;
+   /*border: 1px solid #000;*/
    margin-top: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+  
     }
     .container3 .cityes li{
-     width: 320px;
+     width: 290px;
      height: 60px;
      display: flex;
+     border: 1px solid rgb(204,204,204, .9);
+     align-items: center;
+     justify-content: space-between;
+     padding: 0px 20px;
+     margin: 5px 0px;
+     border-radius: 10px;
+     box-shadow: 0px 0px 5px rgb(28,28,28, .1);
+     transition: .3s linear;
    }
+   .container3 .cityes li:hover{
+    box-shadow: 0px 3px 5px rgb(28,28,28, .2);
+   }
+   .container3 .cityes li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(70, 70, 70);
+   }
+
