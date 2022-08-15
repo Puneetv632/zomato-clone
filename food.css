@@ -422,3 +422,36 @@ header section .search .location_h .loc{
     top: -2px;
     left: -3px;
    }
+   .app_data .right_bx .input{
+    position: relative;
+    width: 390px;
+    height: auto;
+    /*border: 1px solid #000;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+   }
+   .app_data .right_bx .input input{
+    position: absolute;
+    width: 250px;
+    padding: 14px 0px 14px 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(211,211,211);
+    outline: #eb2b3e;
+    top: 0;
+   }
+   .app_data .right_bx .input .Button{
+    width: 130px;
+    padding: 14px 0px ;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    color: #fff;
+    background: #eb2b3e;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 5px;
+    font-weight: 500;
+   }
