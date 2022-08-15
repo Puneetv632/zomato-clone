@@ -370,6 +370,17 @@ header section .search .location_h .loc{
    .app_data .right_bx{
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     flex-direction: column;
    }
+   .app_data .right_bx h1{
+    font-size: 45px;
+    font-weight: 500;
+   }
+   .app_data .right_bx h4{
+    margin-top: 10px;
+    font-size: 17px;
+    color: rgb(48, 48, 48);
+    font-weight: 400;
+   }
+   
