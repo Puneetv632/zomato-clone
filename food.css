@@ -370,7 +370,7 @@ header section .search .location_h .loc{
    .app_data .right_bx{
     display: flex;
     align-items: flex-start;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     flex-direction: column;
    }
    .app_data .right_bx h1{
@@ -465,4 +465,19 @@ header section .search .location_h .loc{
    }
    .show_more #emails{
     visibility: hidden;
+   }
+
+   .app_data .right_bx h6{
+    font-weight: 500;
+    color: rgb(107, 107, 107);
+    margin-top: 50px;
+    font-size: 14px;
+   }
+   .app_data .right_bx .app_img{
+    display: flex;
+   }
+   .app_data .right_bx .app_img img{
+    width: 142px;
+    height: 40px;
+    margin-right: 10px;
    }
