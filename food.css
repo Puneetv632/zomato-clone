@@ -501,5 +501,38 @@ header section .search .location_h .loc{
    }
    .container4 .container4_sec h2{
     font-weight: 500;
-    margin-top: 30px;
+    margin-top: 70px;
+   }
+   .container4 .container4_sec .menuList{
+    font-weight: 500;
+    margin-top: 15px;
+    color: rgb(116, 116, 116);
+   }
+   .container4 .container4_sec .menuList span{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background: goldenrod;
+    margin: 0px 10px;
+   }
+   .container4 .container4_sec .menuList span::before{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: rgb(116, 116, 116);
+    border-radius: 50%;
+    top: 8px;
+    left: -5px;
+   }
+   .container4 .container4_sec .menuList a{
+    text-decoration: none;
+    color: rgb(116, 116, 116);
+    font-size: 15.1px;
+    word-break: break-all;
+    line-height: 25px;
+    transition: all .3s linear;
+   }
+   .container4 .container4_sec .menuList a:hover{
+    color: rgb(37, 37, 37);
    }
