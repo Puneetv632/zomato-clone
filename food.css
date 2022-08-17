@@ -481,3 +481,25 @@ header section .search .location_h .loc{
     height: 40px;
     margin-right: 10px;
    }
+
+   .container4{
+    width: 100%;
+    height: auto;
+    background: #fcfcfc;
+    padding-bottom: 50px;
+   }
+   .container4 .container4_sec{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    border: 1px solid #000;
+    padding-top: 70px;
+    color: rgb(54, 54, 54);
+   }
+   .container4 .container4_sec h1{
+    font-weight: 500;
+   }
+   .container4 .container4_sec h2{
+    font-weight: 500;
+    margin-top: 30px;
+   }
