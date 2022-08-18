@@ -492,7 +492,7 @@ header section .search .location_h .loc{
     width: 80%;
     height: 100%;
     margin: auto;
-    border: 1px solid #000;
+   /* border: 1px solid #000;*/
     padding-top: 70px;
     color: rgb(54, 54, 54);
    }
