@@ -556,4 +556,8 @@ header section .search .location_h .loc{
    .container4 .container4_sec .firstul li a:hover{
     color: rgb(54, 54, 54);
    }
-   
+   .container4 .container4_sec .firstul .cityes_see a{
+   border-bottom: 2px solid rgb(54, 54, 54);
+   color: #000;
+   line-height: 30px;
+   }
