@@ -567,3 +567,24 @@ header section .search .location_h .loc{
     height: 450px;
     background: #f8f8f8;
    }
+   footer .footer_2{
+    width: 80%;
+    height: 100%;
+    border: 1px solid #000;
+    margin: auto;
+   }
+   footer .footer_2 .footer_top, .footer_center, .footer_end{
+    width: 100%;
+    border: 1px solid #000;
+    margin: auto;
+   }
+   footer .footer_2 .footer_top{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   footer .footer_2 .footer_top img{
+    width: 135px;
+    
+   }
