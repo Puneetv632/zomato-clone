@@ -586,5 +586,21 @@ header section .search .location_h .loc{
    }
    footer .footer_2 .footer_top img{
     width: 135px;
+   }
+   footer .footer_2 .footer_top .btns{
+    display: flex;
+   }
+   footer .footer_2 .footer_top .btns button{
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    border: 1px solid rgb(116, 116, 116);
+    background: none;
+    outline: none;
+    margin-left: 10px;
+   }
+   footer .footer_2 .footer_top .btns button:nth-child(1) span{
     
    }
