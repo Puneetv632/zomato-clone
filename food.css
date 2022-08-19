@@ -575,7 +575,7 @@ header section .search .location_h .loc{
    }
    footer .footer_2 .footer_top, .footer_center, .footer_end{
     width: 100%;
-    border: 1px solid #000;
+   /* border: 1px solid #000;*/
     margin: auto;
    }
    footer .footer_2 .footer_top{
@@ -664,4 +664,10 @@ header section .search .location_h .loc{
     width: 150px;
     height: 45px;
     margin: 4px 0px;
+   }
+
+   footer .footer_2 .footer_end p{
+    color: rgb(116, 116, 116);
+    font-size: 13.5px;
+    padding: 30px 0px;
    }
