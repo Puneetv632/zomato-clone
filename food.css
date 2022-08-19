@@ -651,3 +651,12 @@ header section .search .location_h .loc{
    footer .footer_2 .footer_center .nav1, .nav2, .nav3, .nav4, .nav5, ul li a:hover{
     color: rgb(48, 48, 48);
    }
+   footer .footer_2 .footer_center .nav5 .icon{
+    display: flex;
+    margin: 15px 0px 20px 0px;
+   }
+   footer .footer_2 .footer_center .nav5 .icon svg{
+    width: 25px;
+    height: 21px;
+    margin: 0px 2px;
+   }
