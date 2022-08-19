@@ -611,3 +611,10 @@ header section .search .location_h .loc{
    footer .footer_2 .footer_top .btns button:nth-child(1) svg{
     margin-left: 3px;
    }
+   footer .footer_2 .footer_top .btns button:nth-child(2) svg:nth-child(1){
+    width: 30px;
+    height: 23px;
+   }
+   footer .footer_2 .footer_top .btns button:nth-child(2) svg:nth-child(2){
+    margin-left: 3px;
+   }
