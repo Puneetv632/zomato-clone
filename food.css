@@ -602,5 +602,12 @@ header section .search .location_h .loc{
     margin-left: 10px;
    }
    footer .footer_2 .footer_top .btns button:nth-child(1) span{
-    
+    display: inline-block;
+    width: 44px;
+    height: 33px;
+    background: url(https://b.zmtcdn.com/data/webuikit/0687ff554c86e36cda9498212e221af61563274375.png)-144px 0px no-repeat;
+    transform: scale(.60);
+   }
+   footer .footer_2 .footer_top .btns button:nth-child(1) svg{
+    margin-left: 3px;
    }
