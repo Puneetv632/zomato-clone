@@ -570,7 +570,7 @@ header section .search .location_h .loc{
    footer .footer_2{
     width: 80%;
     height: 100%;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
     margin: auto;
    }
    footer .footer_2 .footer_top, .footer_center, .footer_end{
@@ -625,7 +625,7 @@ header section .search .location_h .loc{
    footer .footer_2 .footer_center .nav1, .nav2, .nav3, .nav4, .nav5{
     width: 20%;
     height: 250px;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
    }
    footer .footer_2 .footer_center .nav1, .nav2, .nav3, .nav4, .nav5, ul{
     margin-top: 15px;
