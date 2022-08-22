@@ -679,3 +679,15 @@ header section .search .location_h .loc{
     height: 200px;
     border: 1px solid rgb(107, 107, 107, .1);
    }
+   .nav {
+    width: 80%;
+    height: 25%;
+    border: 1px solid #000;
+    margin: 10px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   .m_logo img {
+    width: 135px;
+   }
