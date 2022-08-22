@@ -691,3 +691,88 @@ header section .search .location_h .loc{
    .m_logo img {
     width: 135px;
    }
+   .header .nav .search{
+    position: relative;
+    width: 550px;
+    height: 45px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(232,232,232);
+    box-shadow: 0px 2px 8px rgb(28,28,28, .2);
+}
+.header .nav .search input{
+    border: none;
+    outline: none;
+    width: 250px;
+    padding-left: 10px;
+}
+.header .nav .search .ezrcri{
+    width: 30px;
+   transition: .3s ease-in-out;
+}
+.header .nav .search .iwHbVQ{
+    width: 60px;
+   border-left: 2px solid rgb(204,204,204);
+}
+.header .nav .search .search2{
+    width: 310px;
+}
+.header .nav .search .location_h{
+   position: absolute;
+   width: 350px;
+   height: 250px;
+   background: #fff;
+   border-radius: 15px;
+   left: 0%;
+   top: 100%;
+   visibility: hidden;
+   margin-top: 10px;
+   z-index: 99999999999;
+}
+.header .nav .search .location_h .loc{
+   cursor: pointer;
+   border-radius: 15px 15px 0px 0px;
+   transition: all .5s linear;
+ }
+ .header .nav .search .location_h .loc:hover{
+    background: rgb(243,243,243, .5);
+  }
+  .header .nav .search .location_h h3{
+    font-weight: 500;
+    color: #ef4f5f;
+    padding: 20px 0px 0px 20px;
+  }
+  .header .nav .search .location_h .loc h3 svg{
+   margin-right: 10px;
+  }
+  .header .nav .search .location_h .loc p{
+    color: rgb(156, 156, 156);
+    font-size: 13px;
+    padding: 5px 0px 20px 45px;
+   }
+   .header .nav .search .location_h hr{
+    border-top: .1px solid rgb(223,223,223, .1);
+   }
+   .header .nav .search .location_h h3:nth-child(2){
+    color: rgb(68, 68, 68);
+   }
+   .header .nav .search .location_h a{
+    text-decoration: none;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    padding-left: 28px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: .3s linear;
+   }
+   .header .nav .search .location_h a:hover{
+    background: rgb(243,243,243, .5);
+   }
+   .header .nav .search .location_h a svg{
+    margin-right: 10px;
+   }
