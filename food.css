@@ -790,3 +790,28 @@ header section .search .location_h .loc{
    .header .nav ul li a{
     font-size: 17px;
    }
+
+   .header .path{
+    width: 80%;
+    height: 25%;
+    border: 1px solid #000;
+    margin: auto;
+    display: flex;
+    align-items: center;
+   }
+   .header .path h5{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(28,28,28, .7);
+   }
+   .header .path h5 .main_add{
+    color: rgb(28,28,28, .2);
+   }
+   .header .path h5 .s_path {
+    margin: 0px 3px;
+   }
+   .header .path h5 .n_path {
+    transition: .3s linear;
+    cursor: pointer;
+   }
+   
