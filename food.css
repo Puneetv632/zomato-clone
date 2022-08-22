@@ -682,7 +682,7 @@ header section .search .location_h .loc{
    .nav {
     width: 80%;
     height: 25%;
-    border: 1px solid #000;
+   /* border: 1px solid #000;*/
     margin: 10px auto 0px auto;
     display: flex;
     align-items: center;
@@ -775,4 +775,18 @@ header section .search .location_h .loc{
    }
    .header .nav .search .location_h a svg{
     margin-right: 10px;
+   }
+
+   .header .nav ul {
+    height: 100%;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   }
+   .header .nav ul li{
+    margin-left: 20px;
+   }
+   .header .nav ul li a{
+    font-size: 17px;
    }
