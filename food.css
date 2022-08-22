@@ -814,4 +814,21 @@ header section .search .location_h .loc{
     transition: .3s linear;
     cursor: pointer;
    }
-   
+   .header .path h5 .n_path:nth-child(1):hover {
+    color: #ef4f5f;
+   }
+   .header .path h5 .n_path:nth-child(2):hover {
+    color: #ef4f5f;
+   }
+   .header .path h5 .n_path:nth-child(3):hover {
+    color: #ef4f5f;
+   }
+   .header .path h5 .n_path3:hover {
+    color: #ef4f5f;
+   }
+   .header .path h5 .n_path:nth-child(4):hover {
+    color: #ef4f5f;
+   }
+   .header .path h5 .n_path4:hover {
+    color: #ef4f5f;
+   }
