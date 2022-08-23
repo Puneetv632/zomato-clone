@@ -794,7 +794,7 @@ header section .search .location_h .loc{
    .header .path{
     width: 80%;
     height: 25%;
-    border: 1px solid #000;
+   /* border: 1px solid #000;*/
     margin: auto;
     display: flex;
     align-items: center;
@@ -831,4 +831,50 @@ header section .search .location_h .loc{
    }
    .header .path h5 .n_path4:hover {
     color: #ef4f5f;
+   }
+
+   .header .type{
+    width: 80%;
+    height: 50%;
+    /*border: 1px solid #000;*/
+    margin: auto;
+    display: flex;
+   }
+   .header .type li{
+    height: 85%;
+   /* width: 100px;*/
+    list-style: none;
+    /*border: 1px solid #000;*/
+    display: flex;
+    align-items: flex-start;
+    padding: 0px 0px 0px 10px;
+    margin: 15px 20px 0px 0px;
+   }
+   .header .type li .img{
+    width: 60px;
+    height: 60px;
+    background: rgb(156, 156, 156, .2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .header .type li:nth-child(1) .img{
+    background: rgb(252, 238, 192);
+   }
+   .header .type li .img img{
+    width: 35px;
+    height: 35px;
+   }
+   .header .type li span{
+    font-size: 20px;
+    font-weight: 500;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    color: rgb(107, 107, 107);
+   }
+   .header .type li:nth-child(1) span{
+    color: rgb(239, 79, 95);
    }
