@@ -878,3 +878,23 @@ header section .search .location_h .loc{
    .header .type li:nth-child(1) span{
     color: rgb(239, 79, 95);
    }
+   .filter{
+    width: 80%;
+    height: 100px;
+    border: 1px solid #000;
+    margin: auto;
+    display: flex;
+    align-items: center;
+   }
+
+   .filter li{
+    list-style-type: none;
+    padding: 7px;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 8px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+   }
