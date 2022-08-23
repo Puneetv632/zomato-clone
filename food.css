@@ -881,7 +881,7 @@ header section .search .location_h .loc{
    .filter{
     width: 80%;
     height: 100px;
-    border: 1px solid #000;
+   /* border: 1px solid #000;*/
     margin: auto;
     display: flex;
     align-items: center;
@@ -901,4 +901,24 @@ header section .search .location_h .loc{
    }
    .filter li svg{
     margin-right: 5px;
+   }
+
+   .Top-brands{
+    position: relative;
+    width: 80%;
+    height: auto;
+    border: 1px solid #000;
+    margin: auto;
+    font-family: 'poppins', sans-serif;
+   }
+   .Top-brands h1{
+    font-size: 27px;
+    font-weight: 500;
+   }
+
+   .Top-brands .brand_item{
+    position: relative;
+    display: flex;
+    padding: 0px 15px;
+    scroll-behavior: smooth;
    }
