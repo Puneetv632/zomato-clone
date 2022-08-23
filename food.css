@@ -907,7 +907,7 @@ header section .search .location_h .loc{
     position: relative;
     width: 80%;
     height: auto;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
     margin: auto;
     font-family: 'poppins', sans-serif;
    }
@@ -922,6 +922,11 @@ header section .search .location_h .loc{
     padding: 0px 15px;
     scroll-behavior: smooth;
     overflow: auto;
+   }
+   .Top-brands .brand_item::-webkit-scrollbar{
+    
+    display: none;
+    
    }
 
    .Top-brands .brand_item li{
@@ -969,5 +974,59 @@ header section .search .location_h .loc{
     margin: 8px 0px 0px 0px;
    }
    .Top-brands .brand_item li:nth-child(3) .img{
-    background: ;
+    background: rgb(248,182,60);
+   }
+   .Top-brands .brand_item li:nth-child(8) .img{
+    background: #1a6a2fe0;
+   }
+
+   .Top-brands .btn_brands{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px rgb(107, 107, 107, .5);
+    border: none;
+    background: #fff;
+    outline: none;
+    cursor: pointer;
+    top: 45%;
+    left: .3%;
+    z-index: 999;
+   }
+   .Top-brands .btn_brands::before{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid #131312;
+    border-left: 2px solid #131312;
+    transform: rotate(-45deg);
+    top: 10px;
+    right: 7px;
+   }
+   .Top-brands .btn_brands:nth-child(2){
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px rgb(107, 107, 107, .5);
+    border: none;
+    background: #fff;
+    outline: none;
+    cursor: pointer;
+    top: 45%;
+    left: 97.2%;
+    z-index: 999;
+   }
+   .Top-brands .btn_brands:nth-child(2)::before{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid #131312;
+    border-left: 2px solid #131312;
+    transform: rotate(-220deg);
+    top: 10px;
+    right: 7px;
    }
