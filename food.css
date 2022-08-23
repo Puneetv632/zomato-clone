@@ -922,3 +922,40 @@ header section .search .location_h .loc{
     padding: 0px 15px;
     scroll-behavior: smooth;
    }
+
+   .Top-brands .brand_item li{
+    list-style: none;
+    width: 150px;
+    height: auto;
+    border: 1px solid #000;
+    margin: 20px 22px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .Top-brands .brand_item li a{
+    text-decoration: none;
+    color: #333;
+   }
+   .Top-brands .brand_item li a .img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 8px rgb(156, 156, 156, .4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+   }
+   .Top-brands .brand_item li a .img img{
+    width: 80%;
+    height: 80%;
+   }
+   .Top-brands .brand_item li a h5{
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+   }
+   .Top-brands .brand_item li a p{
+    
+   }
