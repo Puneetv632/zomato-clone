@@ -957,5 +957,7 @@ header section .search .location_h .loc{
     margin: 10px 0px 0px 0px;
    }
    .Top-brands .brand_item li a p{
-    
+    font-size: 14px;
+    text-align: center;
+    margin: 8px 0px 0px 0px;
    }
