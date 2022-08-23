@@ -928,7 +928,7 @@ header section .search .location_h .loc{
     min-width: 150px;
     height: auto;
     /*border: 1px solid #000;*/
-    margin: 20px 22px 0px 0px;
+    margin: 20px 8px 0px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -938,8 +938,8 @@ header section .search .location_h .loc{
     color: #333;
    }
    .Top-brands .brand_item li a .img{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     box-shadow: 0px 2px 8px rgb(156, 156, 156, .4);
     display: flex;
@@ -948,8 +948,11 @@ header section .search .location_h .loc{
     overflow: hidden;
    }
    .Top-brands .brand_item li a .img img{
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
+   }
+   .Top-brands .brand_item li a .img img .chaayos{
+    background-color: ;
    }
    .Top-brands .brand_item li a h5{
     font-size: 16px;
