@@ -898,3 +898,6 @@ header section .search .location_h .loc{
     display: flex;
     align-items: center;
    }
+   .filter li svg{
+    margin-right: 5px;
+   }
