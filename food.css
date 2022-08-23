@@ -921,6 +921,7 @@ header section .search .location_h .loc{
     display: flex;
     padding: 0px 15px;
     scroll-behavior: smooth;
+    overflow: auto;
    }
 
    .Top-brands .brand_item li{
@@ -932,6 +933,9 @@ header section .search .location_h .loc{
     display: flex;
     align-items: center;
     justify-content: center;
+   }
+   .Top-brands .brand_item li:nth-child(9){
+    margin: 20px 0px 0px 0px;
    }
    .Top-brands .brand_item li a{
     text-decoration: none;
@@ -963,4 +967,7 @@ header section .search .location_h .loc{
     font-size: 14px;
     text-align: center;
     margin: 8px 0px 0px 0px;
+   }
+   .Top-brands .brand_item li:nth-child(3) .img{
+    background: ;
    }
