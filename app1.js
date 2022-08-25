@@ -26,3 +26,4 @@ email.addEventListener('click', ()=>{
     emails_phones.classList.remove('show_more');
     phone.checked = false;
 });
+
