@@ -1104,5 +1104,34 @@ header section .search .location_h .loc{
     border-radius: 0px 3px 3px 0px;
     bottom: 50px;
    }
-   
+   .card_item .cards .card .title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+   }
+   .card_item .cards .card .title h3{
+    font-weight: 600;
+    color: #494949;
+    font-size: 16px;
+   }
+   .card_item .cards .card .title .rate{
+    font-weight: 600;
+    color: #fff;
+    font-size: 13px;
+    background: #257e3e;
+    padding: 3px 5px;
+    border-radius: 5px;
+   }
+   .card_item .cards .card .subtitle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   .card_item .cards .card .subtitle h3{
+    font-weight: lighter;
+    
+   }
    
