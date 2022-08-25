@@ -1132,6 +1132,13 @@ header section .search .location_h .loc{
    }
    .card_item .cards .card .subtitle h3{
     font-weight: lighter;
-    
+    font-size: 16px;
+    color: rgb(107, 107, 107);
+   }
+   .card_item .cards .card .subtitle p{
+    font-weight: 200;
+    font-size: 15px;
+    color: rgb(107, 107, 107);
+    margin-top: 10px;
    }
    
