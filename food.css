@@ -1031,7 +1031,7 @@ header section .search .location_h .loc{
    .card_item{
     width: 80%;
     height: auto;
-    border: 1px solid #000;
+   /* border: 1px solid #000;*/
     margin: 15px auto 0px auto;
    }
    .card_item .cards{
@@ -1039,7 +1039,7 @@ header section .search .location_h .loc{
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 30px;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
    }
    .card_item h1{
     font-size: 28px;
