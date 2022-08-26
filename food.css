@@ -171,7 +171,7 @@ header section .search .location_h .loc{
     padding-bottom: 20px;
    }
    .container1 .card{
-    width: 280px;
+    width: 350px;
     height: 240px;
     /*border: 1px solid #000;*/
     border-radius: 10px;
@@ -674,6 +674,79 @@ header section .search .location_h .loc{
 
 
    /*Next Page Start*/
+
+    footer .footer_2 .footer_top .btns button{
+    position: relative;    
+    cursor: pointer;
+    }
+    footer .footer_2 .footer_top .btns button .country{
+    position: absolute;    
+    width: 620px;
+    height: 280px;
+    background: #fff;
+    border-radius: 8px;
+    z-index: 999;
+    bottom: 160%;
+    right: -30%;
+    box-shadow: 0px 0px 20px rgb(197, 197, 197);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+    footer .footer_2 .footer_top .btns button .country::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+     bottom: -5px;
+    right: 10%;
+    transform: rotate(133deg);
+    }
+    footer .footer_2 .footer_top .btns button .country li{
+    list-style: none;
+    position: relative;
+    width: 140px;
+    height: 35px;
+     /*background: #000;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 1s linear;
+    }
+    footer .footer_2 .footer_top .btns button .country li:nth-child(1){
+    background: rgb(237,244,255);
+    }
+    footer .footer_2 .footer_top .btns button .country li:hover{
+    background: rgb(237,244,255);
+    }
+    footer .footer_2 .footer_top .btns button .country li::before{
+    content: '';
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background: url(https://b.zmtcdn.com/data/webuikit/0687ff554c86e36cda9498212e221af61563274375.png)-143px 0px no-repeat;
+    transform: scale(.5);
+    left: 0;
+    top: -2px;
+    }
+    footer .footer_2 .footer_top .btns button .country li a{
+    width: 100%;
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    }
+    footer .footer_2 .footer_top .btns button .country li:nth-child(2)::before{
+    background: url(https://b.zmtcdn.com/data/webuikit/0687ff554c86e36cda9498212e221af61563274375.png)-752px 0px no-repeat;
+    
+    }
+
    .header{
     width: 100%;
     height: 200px;
