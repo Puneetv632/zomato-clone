@@ -27,3 +27,13 @@ email.addEventListener('click', ()=>{
     phone.checked = false;
 });
 
+let country_button = document.getElementById('country_button');
+let country = document.getElementById('country');
+
+window.addEventListener('click',(e) => {
+    if (e.target.id == "country_button") {
+        country.classList.add('country_java');
+    } else {
+        country.classList.remove('country_java')
+    }
+})

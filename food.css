@@ -693,6 +693,16 @@ header section .search .location_h .loc{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    visibility: hidden;
+    opacity: 0;
+    }
+
+
+    /* java */
+
+    footer .footer_2 .footer_top .btns button .country_java{
+        visibility: visible;
+        opacity: 1;
     }
     footer .footer_2 .footer_top .btns button .country::before{
     content: '';
@@ -738,7 +748,7 @@ header section .search .location_h .loc{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    text-align: center;
+    /*text-align: center;*/
     text-decoration: none;
     color: #000;
     }
@@ -812,8 +822,6 @@ header section .search .location_h .loc{
     background: url(https://b.zmtcdn.com/data/webuikit/0687ff554c86e36cda9498212e221af61563274375.png)-282px 0px no-repeat;
     }
             
-        
-    
 
    .header{
     width: 100%;
